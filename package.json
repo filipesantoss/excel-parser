@@ -5,7 +5,7 @@
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . ExcelParser --platform=darwin --arch=x64",
-    "package-windows": "electron-packager . ExcelParser --platform=win32 --arch=ia32 --version-string.CompanyName=FS --version-string.FileDescription=FS --version-string.ProductName=\"ExcelParser\""
+    "package-windows": "electron-packager . ExcelParser --platform=win32 --arch=ia32"
   },
   "author": "filipesantoss",
   "license": "ISC",

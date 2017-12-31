@@ -1,0 +1,1 @@
+Utilitary tool to parse specifically formatted xlsx files in batch into a single file with a single column.
