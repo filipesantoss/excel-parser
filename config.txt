@@ -1,0 +1,17 @@
+{
+    "input": "",
+    "output": "",
+    "hourCells": {
+        "firstColumn": "C",
+        "firstRow": "28",
+        "lastColumn": "Z",
+        "lastRow": "58"
+    },
+    "quarterCells": { 
+        "firstColumn": "B",
+        "firstRow": "3",
+        "lastColumn": "CS",
+        "lastRow": "33"
+    },
+    "supportRegex": "xlsx"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "excel-parser",
+  "version": "0.0.5",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . ExcelParser --platform=darwin --arch=x64",
+    "package-windows": "electron-packager . ExcelParser --platform=win32 --arch=ia32 --version-string.CompanyName=FS --version-string.FileDescription=FS --version-string.ProductName=\"ExcelParser\""
+  },
+  "author": "filipesantoss",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.11.16",
+    "xlsx-workbook": "^1.0.3"
+  },
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-packager": "^10.1.0"
+  }
+}
