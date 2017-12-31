@@ -34,7 +34,7 @@ function getFileNames(directory) {
 }
 
 function getConfig() {
-    const CONFIG_PATH = '../../config.txt';
+    const CONFIG_PATH = '../../config.json';
     var path = Path.join(__dirname, CONFIG_PATH);
 
     if (!Fs.existsSync(path)) {

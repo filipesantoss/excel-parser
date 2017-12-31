@@ -12,7 +12,6 @@ var message = document.querySelector('#message');
 
 // Add 'click' event listeners to buttons.
 sixty.addEventListener('click', (event) => {
-    console.log('sending ' + Messages.hour)
     ipcRenderer.send(Messages.hour);
 });
 
