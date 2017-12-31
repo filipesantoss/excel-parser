@@ -27,7 +27,6 @@ async function createNewFile(allCells, average) {
         }
 
         var files = Reader.getFileNames(INPUT_DIR);
-        console.log(INPUT_DIR, files);
 
         if (!files) {
             return false;
