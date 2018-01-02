@@ -95,19 +95,17 @@ function readQuarter(sheet, average) {
             }
 
             let cellValue = sheet[cellPosition].v;
+            hour.push(cellValue);
 
-            if (hour.length < 4) {
-                hour.push(cellValue);
-                continue;
+            if (hour.length === 4) {
+                cellValue = hour.reduce((first, second) => {
+                    return first + second;
+                });
+                cellValue /= average ? 4 : 1;
+
+                hour = [];
+                values.push(cellValue);
             }
-
-            cellValue = hour.reduce((first, second) => {
-                return first + second;
-            });
-            cellValue /= average ? 4 : 1;
-
-            hour = [];
-            values.push(cellValue);
         }
     }
 }
